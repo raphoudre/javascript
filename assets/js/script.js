@@ -1,5 +1,8 @@
-var name = "Raphaël";
-var age = 18;
-var city = "Le Havre";
+var number = prompt("entrer un chiffre entre 1 et 7");
+if (number >=18){
+    alert("vous êtes majeur")
+} else{
+    alert("Vous êtes mineur")
+}
 
-alert("Bonjour, je m'appelle "+name +", j'ai "+age +" ans et j'habite à "+city)
+
