@@ -1,2 +1,3 @@
-var message = 10;
-alert(message);
+var firstPart = "ceci est une ";
+var lastPart = "phrase décomposée";
+alert(firstPart + lastPart);
