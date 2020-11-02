@@ -1,8 +1,12 @@
-var number = prompt("entrer un chiffre entre 1 et 7");
-if (number >=18){
-    alert("vous êtes majeur")
-} else{
-    alert("Vous êtes mineur")
+function check(){
+    var nbr;
+    nbr = Number(document.getElementById("myInput").value);
+    if(nbr%2 == 0)
+    {
+           alert("Nombre pair");
+    }
+    else
+    {
+           alert("Nombre impair");
+    }
 }
-
-
